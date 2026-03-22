@@ -79,9 +79,9 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION,
-    yandex: process.env.YANDEX_VERIFICATION,
-    yahoo: process.env.YAHOO_VERIFICATION,
+    google: process.env.GOOGLE_SITE_VERIFICATION ?? null,
+    yandex: process.env.YANDEX_VERIFICATION ?? null,
+    yahoo: process.env.YAHOO_VERIFICATION ?? null,
   },
 };
 
